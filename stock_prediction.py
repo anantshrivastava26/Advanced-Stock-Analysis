@@ -44,7 +44,8 @@ except Exception as e:
 # --- News API (using your provided URL) ---
 news_url = f"https://newsapi.org/v2/everything?q={ticker}&apiKey={NEWS_API_KEY}"
 
-print("\nFetching latest news articles for Apple...")
+print("\nFetching latest news articles for ...")
+print(f"📰 {ticker}")
 try:
     response = requests.get(news_url)
     response.raise_for_status()
