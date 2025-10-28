@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+requests
+pandas
+numpy
+scikit-learn
+joblib
+vaderSentiment
+xgboost  # optional; leaving here is fine if installed
+tensorflow==2.16.1  # optional; include only if you want LSTM
